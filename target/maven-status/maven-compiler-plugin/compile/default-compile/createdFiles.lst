@@ -1,0 +1,9 @@
+com\proctor\backendservice\model\Attendance.class
+com\proctor\backendservice\model\Student.class
+com\proctor\backendservice\StudentServiceApplication.class
+com\proctor\backendservice\web\api\ProfessorService.class
+com\proctor\backendservice\web\api\StudentService.class
+com\proctor\backendservice\web\api\AttendanceService.class
+com\proctor\backendservice\repository\jpa\StudentRepository.class
+com\proctor\backendservice\model\Course.class
+com\proctor\backendservice\model\Professor.class
