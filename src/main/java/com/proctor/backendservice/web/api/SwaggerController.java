@@ -1,4 +1,4 @@
-package com.proctor.backendservice.service;
+package com.proctor.backendservice.web.api;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
