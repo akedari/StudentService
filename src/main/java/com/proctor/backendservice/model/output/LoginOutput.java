@@ -32,4 +32,12 @@ public class LoginOutput {
   public void setIsStudent(String isStudent) {
     this.isStudent = isStudent;
   }
+
+  @Override
+  public String toString() {
+    return "LoginOutput{" +
+      "userId=" + userId +
+      ", isStudent='" + isStudent + '\'' +
+      '}';
+  }
 }
