@@ -27,7 +27,7 @@ public class StudentServiceController {
   @Autowired
   private ApplicationService applicationService;
 
-  @RequestMapping(value = "/api/student/login/", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
+  @RequestMapping(value = "/api/student/login", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
   public ResponseEntity<LoginOutput> getUserDeatials(@RequestBody LoginInput loginInput) {
 
     log.debug(loginInput.toString());
